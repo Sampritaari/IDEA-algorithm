@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/rcs2/clockedround.xst" -ofn "/home/ise/Desktop/rcs2/clockedround.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 clockedround.ngc clockedround.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o clockedround_map.ncd clockedround.ngd clockedround.pcf 

@@ -1,0 +1,102 @@
+V3 73
+FL /home/ise/Desktop/rcs1/clk_div.vhd 2023/06/25.03:05:10 P.20131013
+EN work/clk_div 1689867567 FL /home/ise/Desktop/rcs1/clk_div.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clk_div/Behavioral 1689867568 \
+      FL /home/ise/Desktop/rcs1/clk_div.vhd EN work/clk_div 1689867567
+FL /home/ise/Desktop/rcs1/idea_com.vhd 2023/06/25.03:04:56 P.20131013
+FL /home/ise/Desktop/rcs1/idea_com_inner.vhd 2023/07/20.12:30:31 P.20131013
+EN work/idea_com_inner 1689867569 FL /home/ise/Desktop/rcs1/idea_com_inner.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/idea_com_inner/Behavioral 1689867570 \
+      FL /home/ise/Desktop/rcs1/idea_com_inner.vhd EN work/idea_com_inner 1689867569 \
+      CP uart CP idea_rcs2 CP mux2x1
+FL /home/ise/Desktop/rcs1/rxcver.vhd 2023/06/25.03:04:58 P.20131013
+EN work/rxcver 1689867561 FL /home/ise/Desktop/rcs1/rxcver.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/std_logic_misc 1381692178 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/rxcver/behavior 1689867562 \
+      FL /home/ise/Desktop/rcs1/rxcver.vhd EN work/rxcver 1689867561
+FL /home/ise/Desktop/rcs1/txmit.vhd 2023/06/25.03:05:00 P.20131013
+EN work/txmit 1689867559 FL /home/ise/Desktop/rcs1/txmit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/std_logic_misc 1381692178 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/txmit/behavior 1689867560 \
+      FL /home/ise/Desktop/rcs1/txmit.vhd EN work/txmit 1689867559
+FL /home/ise/Desktop/rcs2/clockedround.vhd 2023/07/20.15:29:57 P.20131013
+FL /home/ise/Desktop/rcs2/idea_com.vhd 2023/07/20.12:57:23 P.20131013
+EN work/idea_com 1689867571 FL /home/ise/Desktop/rcs2/idea_com.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/idea_com/Behavioral 1689867572 \
+      FL /home/ise/Desktop/rcs2/idea_com.vhd EN work/idea_com 1689867571 \
+      CP clk_div CP idea_com_inner
+FL /home/ise/Desktop/rcs2plus/clockedround.vhd 2023/07/19.22:22:38 P.20131013
+EN work/clockedround 1689867555 FL /home/ise/Desktop/rcs2plus/clockedround.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clockedround/Structural 1689867556 \
+      FL /home/ise/Desktop/rcs2plus/clockedround.vhd EN work/clockedround 1689867555 \
+      CP control CP datapath
+FL /home/ise/Desktop/rcs2plus/control.vhd 2023/07/19.19:49:22 P.20131013
+EN work/control 1689867547 FL /home/ise/Desktop/rcs2plus/control.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/control/Behavioral 1689867548 \
+      FL /home/ise/Desktop/rcs2plus/control.vhd EN work/control 1689867547
+FL /home/ise/Desktop/rcs2plus/datapath.vhd 2023/07/19.22:11:36 P.20131013
+EN work/datapath 1689867549 FL /home/ise/Desktop/rcs2plus/datapath.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/datapath/Behavioral 1689867550 \
+      FL /home/ise/Desktop/rcs2plus/datapath.vhd EN work/datapath 1689867549 \
+      CP mux4x1 CP mulop CP addop CP xorop CP register_16
+FL /home/ise/Desktop/rcs2plus/idea_rcs2.vhd 2023/07/19.23:10:24 P.20131013
+EN work/idea_rcs2 1689867565 FL /home/ise/Desktop/rcs2plus/idea_rcs2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/idea_rcs2/Structural 1689867566 \
+      FL /home/ise/Desktop/rcs2plus/idea_rcs2.vhd EN work/idea_rcs2 1689867565 \
+      CP register_16 CP mux2x1 CP keygenerator CP clockedround CP roundcounter
+FL /home/ise/Desktop/rcs2plus/mux4x1.vhd 2023/07/19.19:21:20 P.20131013
+EN work/mux4x1 1689867537 FL /home/ise/Desktop/rcs2plus/mux4x1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux4x1/Behavioral 1689867538 \
+      FL /home/ise/Desktop/rcs2plus/mux4x1.vhd EN work/mux4x1 1689867537
+FL /home/ise/Desktop/rcs2plus/roundcounter.vhd 2023/07/19.22:44:19 P.20131013
+EN work/roundcounter 1689867557 FL /home/ise/Desktop/rcs2plus/roundcounter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/roundcounter/Behavioral 1689867558 \
+      FL /home/ise/Desktop/rcs2plus/roundcounter.vhd EN work/roundcounter 1689867557
+FL /home/ise/IDEA/IDEA/addop.vhd 2023/05/28.14:40:29 P.20131013
+EN work/addop 1689867541 FL /home/ise/IDEA/IDEA/addop.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/addop/Behavioral 1689867542 \
+      FL /home/ise/IDEA/IDEA/addop.vhd EN work/addop 1689867541
+FL /home/ise/IDEA/IDEA/keygenerator.vhd 2023/06/24.17:40:32 P.20131013
+EN work/keygenerator 1689867553 FL /home/ise/IDEA/IDEA/keygenerator.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/keygenerator/Behavioral 1689867554 \
+      FL /home/ise/IDEA/IDEA/keygenerator.vhd EN work/keygenerator 1689867553
+FL /home/ise/IDEA/IDEA/mulop.vhd 2023/05/28.13:06:20 P.20131013
+EN work/mulop 1689867539 FL /home/ise/IDEA/IDEA/mulop.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mulop/Behavioral 1689867540 \
+      FL /home/ise/IDEA/IDEA/mulop.vhd EN work/mulop 1689867539
+FL /home/ise/IDEA/IDEA/mux2x1.vhd 2023/06/25.00:01:24 P.20131013
+EN work/mux2x1 1689867551 FL /home/ise/IDEA/IDEA/mux2x1.vhd PB ieee/std_logic_1164 1381692176
+AR work/mux2x1/Behavioral 1689867552 \
+      FL /home/ise/IDEA/IDEA/mux2x1.vhd EN work/mux2x1 1689867551
+FL /home/ise/IDEA/IDEA/register_16.vhd 2023/06/24.17:40:55 P.20131013
+EN work/register_16 1689867545 FL /home/ise/IDEA/IDEA/register_16.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/register_16/Behavioral 1689867546 \
+      FL /home/ise/IDEA/IDEA/register_16.vhd EN work/register_16 1689867545
+FL /home/ise/IDEA/IDEA/uart.vhd 2023/06/24.17:31:55 P.20131013
+EN work/uart 1689867563 FL /home/ise/IDEA/IDEA/uart.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/std_logic_misc 1381692178 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/uart/behavior 1689867564 \
+      FL /home/ise/IDEA/IDEA/uart.vhd EN work/uart 1689867563 CP txmit CP rxcver
+FL /home/ise/IDEA/IDEA/xorop.vhd 2023/05/25.10:51:11 P.20131013
+EN work/xorop 1689867543 FL /home/ise/IDEA/IDEA/xorop.vhd PB ieee/std_logic_1164 1381692176
+AR work/xorop/Behavioral 1689867544 \
+      FL /home/ise/IDEA/IDEA/xorop.vhd EN work/xorop 1689867543

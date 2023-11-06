@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/rcs2/idea_rcs2.xst" -ofn "/home/ise/Desktop/rcs2/idea_rcs2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Desktop/rcs1/idea_hw.ucf -p xc3s500e-fg320-4 idea_rcs2.ngc idea_rcs2.ngd  

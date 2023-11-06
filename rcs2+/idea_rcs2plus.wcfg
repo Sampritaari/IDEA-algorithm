@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Desktop/rcs2/tb_idea_rcs2plus_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_idea_rcs2plus" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_idea_rcs2plus/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/key" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/x_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/x_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/x_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/x_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/y_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/y_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/y_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/y_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_idea_rcs2plus/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

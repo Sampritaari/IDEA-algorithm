@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Desktop/rcs2/tb_control_isim_beh2.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_control/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/init" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">init</obj_property>
+      <obj_property name="ObjectShortName">init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/trafo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trafo</obj_property>
+      <obj_property name="ObjectShortName">trafo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/en125" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en125</obj_property>
+      <obj_property name="ObjectShortName">en125</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/en346" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en346</obj_property>
+      <obj_property name="ObjectShortName">en346</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/en78" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en78</obj_property>
+      <obj_property name="ObjectShortName">en78</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/result" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">result</obj_property>
+      <obj_property name="ObjectShortName">result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/s_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s_t[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_t[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_control/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Desktop/IDEA/IDEA/testbench_isim_beh3.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/testbench/key" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/x_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/x_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/x_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/x_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/y_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/y_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/y_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/y_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">period</obj_property>
+      <obj_property name="ObjectShortName">period</obj_property>
+   </wvobject>
+</wave_config>

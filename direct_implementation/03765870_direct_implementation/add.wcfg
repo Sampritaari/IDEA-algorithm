@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/IDEA/IDEA/tb_addop_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_addop" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/tb_addop/input1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_addop/input2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_addop/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_addop/carry" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">carry</obj_property>
+      <obj_property name="ObjectShortName">carry</obj_property>
+   </wvobject>
+</wave_config>

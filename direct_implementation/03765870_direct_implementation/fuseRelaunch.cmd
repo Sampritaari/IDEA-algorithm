@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/tb_inverter_isim_beh.exe" -prj "/home/ise/Documents/tb_inverter_beh.prj" "work.tb_inverter" 

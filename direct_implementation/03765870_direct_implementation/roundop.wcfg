@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Desktop/IDEA/IDEA/tb_round_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_round" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_round/x1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/x2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/x3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/x4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/z1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/z2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/z3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/z4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/z5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z5[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/z6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">z6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z6[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/y1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/y2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/y3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/y4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_round/period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">period</obj_property>
+      <obj_property name="ObjectShortName">period</obj_property>
+   </wvobject>
+</wave_config>
